@@ -1,0 +1,435 @@
+/*  ==============================   Overall   ============================= */
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Nanum+Gothic');
+@import url('https://fonts.googleapis.com/css?family=Satisfy');
+
+html, body {
+    font-family: 'Open Sans', sans-serif;
+    color:#0b5e56;
+}
+
+.width100{
+    width:100%;
+}
+
+/*  ==============================   Header   ============================= */
+
+
+
+ul {
+
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+.nav a{
+
+    color: white;
+    font-family: Interstate;
+
+}
+
+.icon-padding{
+
+    padding: 0.5rem 1rem;
+
+}
+
+.icon-padding i{
+
+    font-size: 1.2em;
+    color: white;
+
+}
+
+.brand-style{
+
+    color:  white !important;
+    font-family: 'Satisfy', cursive;
+    margin-right: 0;
+
+}
+
+.bg-green{
+
+    background-color: #0b5e56;
+
+}
+
+.menu-fix li a {
+
+    text-align: right;
+
+}
+
+.login-button a:hover {
+
+    color: white !important;
+
+}
+
+.btn-login{
+
+    font-family: 'Satisfy', cursive;
+    background-color: transparent;
+    color:#ffffff !important;
+    border-color: #ffffff;
+    font-size: 1rem;
+    line-height: 1.2;
+    border-radius: 1.8rem;
+    padding: .5rem 1.4rem !important;
+
+}
+
+@media only screen and (max-width: 991px) {
+
+    .on991-border{
+        border-color: #0b5e56;
+    }
+
+}
+
+/*  ==============================   Login   ============================= */
+
+.loginmodal{
+
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    margin: auto;
+    display: table;
+
+}
+
+.loginmodal > .modal-content{
+
+    display: table-cell;
+
+}
+
+.modal-forget a:link{
+
+    text-decoration: none;
+
+}
+
+.modal-forget a {
+
+    color: #0b5e56;
+
+}
+
+.btn-modal{
+
+    background-color: #0b5e56;
+    color:#b2e5e5;
+    border-color: #b2e5e5;
+    font-family: 'Nanum Gothic', sans-serif;
+
+}
+
+.btn-modal:hover {
+
+    background-color: #b2e5e5;
+    color: #0b5e56;
+
+}
+
+/*  ==============================   Image   ============================= */
+
+.d-block {
+
+	background-size: cover;
+
+}
+
+.carousel-caption h2{
+
+    color: white;
+
+}
+
+.carousel-caption h5{
+
+    color:	white;
+
+}
+
+.Interstate{
+
+	font-weight: 300;
+	line-height: 1.1;
+	font-style: italic;
+	
+}
+
+/*  ==============================   Body   ============================= */
+
+.introduction{
+
+    margin: 2em;
+
+}
+
+.icons-section{
+
+    margin: 1em 5em;
+
+}
+
+.png-image{
+
+    padding: 15px;
+    border: solid 3px white;
+    transition: border-width 0.15s linear;
+
+}
+
+.png-image:hover{
+
+    border-width: 6px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.png-image p{
+
+    color: #696969;
+
+}
+
+.main-heading h4{
+ 
+    text-transform: uppercase;
+    font-weight:  bold;
+    color: #1aa3a3;
+
+}
+
+.main-heading p{
+
+    font-size: 1.3rem;
+    color: #666666;
+
+}
+
+.investment{
+    width: 100px;
+    margin: 14px;
+}
+
+.house-grant{
+    width: 110px;
+    margin: 9px;
+}
+
+.btn-card {
+
+    background-color: #b2e5e5;
+    color:#0b5e56;
+    border-color: #0b5e56;
+    font-family: 'Nanum Gothic', sans-serif;
+
+}
+
+.btn-card:hover {
+
+    background-color: #0b5e56;
+    color: #b2e5e5;
+
+}
+
+.btn {
+
+    padding: .375rem 1.5rem;
+
+}
+
+.card {
+
+    max-width:100%;
+    margin:auto;
+
+}
+
+.card-body {
+
+    background-color: #b2e5e5;
+
+}
+
+.sub-img {
+
+    min-height:300px;
+    background-image: url("assets/images/teenager.jpg");
+    background-size: cover;
+    background-color: rgba(0,0,0,.8);
+
+}
+
+.sub-img-bg{
+
+    background-color: rgba(0,0,0,.25);
+    min-height: 300px;
+    color:#ffffff;
+    text-align:left;
+
+}
+
+.sub-img-bg h1 {
+    margin-top:30px;
+
+}
+
+.btn-sub-img {
+
+    background-color: transparent;
+    color:#ffffff;
+    border-color: #ffffff;
+    font-family: 'Nanum Gothic', sans-serif;
+
+}
+
+.btn-sub-img:hover {
+
+    background-color: #ffffff;
+    color:#0b5e56;
+    border-color: #ffffff;
+    
+}
+
+/*  ==============================   Movable button   ============================= */
+
+.movable-button {
+
+    width: 200px;
+    height: 50px;
+    background-color: #86becb;
+    border-radius: 3rem;
+    position: fixed;
+    bottom: 16px;
+    right: 20px;
+
+}
+
+.movable-button i {
+
+    font-size: 1.2rem;
+    color:  white;
+
+}
+
+.movable-button p {
+
+    color:  white;
+    font-size: 11px;
+
+}
+
+.movable-button a:link {
+
+    text-decoration: none;
+
+}
+
+/*  ==============================   Footer   ============================= */
+
+.bg-grey{
+
+    background-color:	#D3D3D3;
+
+}
+.footer-main{
+
+    padding: 30px 10px;
+
+}
+
+.footer-main a {
+
+    text-decoration: none;
+    color: rgba(0,0,0,.5);
+
+}
+
+.footer-main h6{
+
+    color: 	#808080;
+
+}
+
+.icon-footer i{
+
+    float: left;
+    margin-right: 10px;
+    color:	#696969;
+
+}
+
+.text-footer{
+
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+.text-footer p{
+
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color:  rgba(0,0,0,.5);
+
+}
+
+.icon-footer-bottom{
+
+    text-align: right;
+    margin-top: 30px;
+    padding-right: 150px;
+
+}
+
+@media only screen and (max-width: 1000px) {
+
+    .on1000-left{
+
+        text-align: left;
+        margin-top: 0;
+        padding-top: 20px;
+        padding-bottom: 15px;
+        
+    }
+    
+}
+
+.icon-footer-bottom i{
+
+    font-size: 1.5em;
+    padding-left: 10px;
+    color: rgba(0,0,0,.5);
+
+}
+
+.on600-show {
+
+    display:none;
+    
+}
+
+@media only screen and (max-width: 600px) {
+
+    .on600-hide{
+        display:none;
+    }
+
+    .on600-show{
+        display:block;
+    }
+    
+}
